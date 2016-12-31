@@ -1,0 +1,10 @@
+/* Basscss Responsive Position */
+
+@import "basscss-lib/sm-position";
+@import "basscss-lib/md-position";
+@import "basscss-lib/lg-position";
+
+@custom-media --breakpoint-sm (min-width: 40em);
+@custom-media --breakpoint-md (min-width: 52em);
+@custom-media --breakpoint-lg (min-width: 64em);
+
